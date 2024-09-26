@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Day24</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <img
+            src="ss-or-s-initial-letter-logo-design-vector (2).jpg"
+            alt="image"
+            style="width: 75px"
+          />
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" href="day24.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="day24-1.html">Page-1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="day24-2.html">page-2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="day24-3.html">page-3</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div>
+        <h1>Day24</h1>
+        <h1>Sample about collapse</h1>
+        <button
+          class="btn btn-outline-primary"
+          data-bs-toggle="collapse"
+          data-bs-target="#sajan"
+        >
+          Click
+        </button>
+        <div class="collapse" id="sajan">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
+            perspiciatis quam hic minus quos harum quae corporis suscipit iure
+            ipsa consectetur illum maxime neque dignissimos dolores. Eaque rerum
+            ipsum magnam suscipit deleniti reprehenderit omnis ratione ea
+            aperiam ipsa libero dolor, sed architecto esse itaque officia
+            voluptatibus delectus magni! Ad, ipsam?
+          </p>
+        </div>
+        <div class="collaps">
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum,
+            perspiciatis quam hic minus quos harum quae corporis suscipit iure
+            ipsa consectetur illum maxime neque dignissimos dolores. Eaque rerum
+            ipsum magnam suscipit deleniti reprehenderit omnis ratione ea
+            aperiam ipsa libero dolor, sed architecto esse itaque officia
+            voluptatibus delectus magni! Ad, ipsam?
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
