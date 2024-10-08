@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Operators</title>
+    <style>
+      .heading {
+        text-align: center;
+      }
+      body{
+        border: 7px solid black;
+        background-color: rgba(67, 194, 253, 0.432);
+      }
+      h1 {
+        color: darkblue;
+        background-color: rgb(255, 252, 64);
+        display: inline-block;
+        height: 50px;
+        width: 150px;
+        padding: 20px;
+        border: 5px solid darkblue;
+      }
+      h3 {
+        color: rgb(84, 0, 163);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Operators</h1>
+    </div>
+    <hr />
+    <h3>01. Arithmetic Operators</h3>
+    <script>
+      let a = 10;
+      let b = 2;
+      let c = a + b;
+      let d = a - b;
+      let e = a * b;
+      let f = a / b;
+      let g = a % b;
+      let h = a++;
+      let i = a--;
+      document.write("Addition = " + c + "<br>");
+
+      document.write("Subtraction =" + d + "<br>");
+
+      document.write("Multiplication =" + e + "<br>");
+
+      document.write("Division =" + f + "<br>");
+
+      document.write("Modulus (Remainder) =" + g + "<br>");
+
+      document.write("Increment =" + h + "<br>");
+
+      document.write("Decrement =" + i);
+    </script>
+    <hr />
+    <h3>02. Comparison Operators</h3>
+    <script>
+      let aa = 5;
+      let bb = 1;
+      document.write(aa == bb);
+      document.write("<br>");
+      document.write(aa != bb);
+      document.write("<br>");
+      document.write(aa === bb);
+      document.write("<br>");
+      document.write(aa !== bb);
+      document.write("<br>");
+      document.write(aa > bb);
+    </script>
+    <hr />
+    <h3>03. Logical Operators</h3>
+    <script>
+      let s = 5;
+      let t = 10;
+      document.write(s > 10 && t > 5);
+      document.write("<br>");
+      document.write(s > 1 || t > 5);
+    </script>
+    <hr />
+    <h3>04. Assignment Operetors</h3>
+    <script>
+      let n = 5;
+      let p = 1;
+      n += p;
+      document.write(n);
+    </script>
+    <hr />
+    <h3>05. Ternary Operator</h3>
+    <script>
+      let mark = 90;
+      document.write(
+        (grade =
+          mark >= 75
+            ? "A"
+            : mark >= 65
+            ? "B"
+            : mark >= 55
+            ? "c"
+            : mark >= 35
+            ? "S"
+            : "F")
+      );
+    </script>
+  </body>
+</html>
