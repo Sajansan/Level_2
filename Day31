@@ -17,7 +17,7 @@
         background-color: rgb(255, 252, 64);
         display: inline-block;
         height: 50px;
-        width: 150px;
+        width: 350px;
         padding: 20px;
         border: 5px solid darkblue;
       }
