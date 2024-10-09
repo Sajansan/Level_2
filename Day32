@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day32</title>
+    <style>
+      body {
+        border: 4px solid darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>TypeOf</h3>
+    <script>
+      let s = "Sajan";
+      let r = 5;
+      document.write(typeof s);
+      document.write("<br>");
+      document.write(typeof r);
+    </script>
+    <hr />
+    <h3>ParseInt</h3>
+    <script>
+      let a = "Sajan";
+      let b = "5";
+      let c = "10";
+      document.write(parseInt(b) + parseInt(c));
+    </script>
+    <hr />
+    <h3>Nullish Coalescing</h3>
+    <script>
+      let x = 10;
+      let y;
+      y = y ?? 2;
+      document.write(x / y);
+    </script>
+
+    <hr />
+    <h3>If Else</h3>
+    <script>
+      let sajan = 80;
+      if (sajan > 75) {
+        document.write("Sajan is above 70");
+      } else if (sajan < 75 && sajan > 50) {
+        document.write("Sajan is in second stage");
+      } else {
+        document.write("Sajan is in third stage");
+      }
+      document.write("<br>");
+      document.write("After if condition");
+    </script>
+
+    <hr />
+    <h3>For Loop</h3>
+    <script>
+      for (let i = 1; i < 10; i++) {
+        document.write(i);
+      }
+    </script>
+  </body>
+</html>
