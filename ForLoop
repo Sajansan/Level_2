@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ForLoop</title>
+    <style>
+      h2 {
+        color: darkblue;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Days of the week</h2>
+    <script>
+      let days = [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday",
+      ];
+      for (a = 0; a < days.length; a++) {
+        document.write(days[a] + "<br>");
+      }
+    </script>
+    <hr />
+    <h2>Even number or Odd number</h2>
+    <script>
+      for (let x = 1; x <= 100; x++) {
+        if (x % 2 === 0) {
+          document.write(x + "- Even number" + "<br>");
+        } else {
+          document.write(x + "- Odd number" + "<br>");
+        }
+      }
+    </script>
+  </body>
+</html>
