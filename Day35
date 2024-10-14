@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Day35</title>
+  </head>
+  <body>
+    <script>
+      const Names = ["Sajan", "Emil", "Dilo", "Mayu"];
+      console.log(Names[0]);
+      console.log("");
+      for (let i = 0; i < 5; i++) {
+        console.log(Names[i]);
+      }
+      console.log("");
+      let x = 0;
+      while (x < Names.length) {
+        console.log(Names[x]);
+        x++;
+      }
+      // var sajan="abcde";
+      // console.log(sajan.charAt(2));
+      // console.log(sajan.charCodeAt(2));
+    </script>
+
+    <script>
+      const Names1 = ["Sajan", "Emil", "Dilo", "Mayu"];
+      console.log("");
+      // for (let i = 0; i < Names1.length; i++) {
+      //   console.log(Names1[i]);
+      //   if (i == 2) {
+      //     console.log("I reached 2");
+      //     break;
+      //   }
+      // }
+
+      for (let i = 0; i < Names1.length; i++) {
+        console.log(Names1[i]);
+        if (i == 1) {
+          continue;
+        }
+        console.log(Names1[i]);
+      }
+    </script>
+
+    <script>
+      const Names2 = [];
+      Names2.push(1);
+      Names2.push(2);
+      console.log(Names2.length);
+      for (let i = 0; i < Names1.length; i++) {
+        Names2.push(Names1[i]);
+      }
+      console.log(Names2.length);
+    </script>
+  </body>
+</html>
